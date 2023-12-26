@@ -12,3 +12,9 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npm run build 
+      - name: Commit Build
+        run: |
+          git config --global user.name 'Techie Bora'
+          git config --global user.email 'techiebora@users.noreply.github.com'
+          git commit -am "Automated Build push"
+          git push
