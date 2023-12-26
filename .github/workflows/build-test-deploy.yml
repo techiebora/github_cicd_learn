@@ -17,4 +17,4 @@ jobs:
           git config --global user.name 'techiebora'
           git config --global user.email 'techiebora@gmail.com'
           git commit -am "Automated Build push"
-          git push
+          git push origin
