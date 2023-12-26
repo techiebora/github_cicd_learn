@@ -1,4 +1,4 @@
-name: hello-world
+name: Build-test-depploy
 on: push
 jobs: 
   build:
